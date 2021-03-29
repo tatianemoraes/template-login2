@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign UP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="left">
+      <div class="textos">
+        <h3>Rede Social</h3>
+        <span class="phrase">Rede social voltada ao compartilhamento de ideias de desenvolvimento de sistemas e friendship.</span>
+      </div>
+      <img src="./work.svg" alt="Site's logo">
+    </div>
+
+    <div class="right">
+      <div class="center-right">
+        <select name="language" id="language">
+          <option value="1">English</option>
+          <option value="2">Português</option>
+          <option value="3">Espanhol</option>
+          <option value="4">Alemão</option>
+          <option value="5">Mandarim</option>
+        </select>
+      </div>
+
+      <div class="center-content">
+        <div class="info-signup">
+          <h3 class="social-title">Rede Social</h3>
+          <span class="messages">COMECE AGORA, É GRÁTIS!</span>
+          <h1 class="sigin-text">Entre agora.</h1>
+          <span class="messages">Já é membro?
+            <a class="login" target="_blank" href="#">Log in</a>
+          </span>
+        </div>
+
+        <div class="data-form">
+          <label class="generic">E-mail</label>
+          <input type="email"
+                 class="generic-input"
+                 name="email"
+                 id="email"
+                 placeholder="name@mail.com" />
+          <i class="fas fa-at icon-type-at"></i>
+
+          <label class="generic">Senha</label>
+          <input type="password"
+                 class="generic-input"
+                 name="password"
+                 id="password"
+                 placeholder="6+ Caracteres, 1 Letra maiúscula" />
+          <i class="fas fa-lock icon-type-lock"></i>
+        </div>
+
+        <div class="buttons">
+          <button class="create">Criar uma conta</button>
+          <button class="signup">
+            <i class="fab fa-google"></i>
+            Entrar com o Google
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>
